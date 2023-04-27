@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -69,6 +70,8 @@ body {
 
 .picture img {
 	width: 100%;
+	height: 100%;
+	
 
 }
 #about-me {
@@ -84,6 +87,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
@@ -101,13 +105,11 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
-.nav-pills .nav-link {
-	color: #000
-}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -137,8 +139,6 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral';
-	font-style: italic;
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
@@ -147,6 +147,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5rem;
 
 }
 .quote__author {
@@ -255,7 +256,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h2, #about-me p {
 		width: 100%;
 	}
 }
