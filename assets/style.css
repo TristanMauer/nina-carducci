@@ -21,7 +21,9 @@ body {
 .top-header .name {
 	font-size: 26px;
 }
-
+.nav-link, .nav-pills{
+	color: #000;
+}
 .nav ul {
 	display: flex;
 	list-style-type: none;
