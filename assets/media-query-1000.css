@@ -1,11 +1,12 @@
-
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
+		align-items: center;
 
 	}
 	.picture {
 		width: 50%;
+		flex : 2;
 	}
 	.picture.left::before {
 		width: 100%;
@@ -19,6 +20,7 @@
 	.about-me__title{
 		text-align: center;
 		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 	#services .container {
 		flex-direction: column;
@@ -32,7 +34,9 @@
 	.service__description{
 		margin-bottom: 1em;
 	}
-
+	#about-me h2, #about-me p {
+	width: 100%;
+	}
 	#services .container::before{
 		width: 30%;
 		height: 100%;
