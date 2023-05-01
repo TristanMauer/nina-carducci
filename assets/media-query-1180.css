@@ -1,8 +1,9 @@
 @media all and (max-width: 1180px) {
 	#about{
 		flex-direction: column;
+	}
+	#about, #contact .container {
 		align-items: center;
-
 	}
 	.picture {
 		width: 50%;
