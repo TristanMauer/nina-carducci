@@ -13,3 +13,4 @@ Pour ce projet je devais debug le site, optimiser les performances et le SEO du 
   yarn start
 ```
     
+liens vers le site : https://nina-carducci-oc.netlify.app/
